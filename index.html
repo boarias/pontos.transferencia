@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora de Transferência de Pontos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Transferência de Pontos</h1>
+    <label for="pontos">Quantidade de pontos a transferir:</label>
+    <input type="number" id="pontos" placeholder="Ex: 100000" />
+
+    <label for="bonus">Percentual de bônus (%):</label>
+    <input type="number" id="bonus" placeholder="Ex: 120" />
+
+    <label for="limiteBonus">Limite de bônus permitido:</label>
+    <input type="number" id="limiteBonus" placeholder="Ex: 300000" />
+
+    <label for="custoMil">Custo por 1000 pontos (R$):</label>
+    <input type="number" id="custoMil" placeholder="Ex: 35" />
+
+    <button onclick="calcular()">Calcular</button>
+
+    <div id="resultado"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
