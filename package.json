@@ -1,5 +1,5 @@
 {
-  "name": "calculadora-transferencia-pontos",
+  "name": "calculadora-transferencia-js",
   "version": "1.0.0",
   "scripts": {
     "dev": "next dev",
